@@ -6,14 +6,14 @@
 - `normalized_to`
 - `comment`
 
-## decision
+## decision 参数选择
 
 - `accept`: 作为普通 token 加入
 - `special`: 作为 special token 加入
 - `reject`: 不加入
 - `normalize`: 规范到 `normalized_to` 指定形式后，作为普通 token 加入
 
-## 2. comment 写什么
+## comment 写什么
 
 写拒绝原因或规范原因，方便后续追踪。
 
