@@ -1,0 +1,5 @@
+candidate,freq,sample_coverage,old_token_len,score,examples,decision,normalized_to,comment
+BRCA1,1240,836,4,3720.0000,BRCA1 mutation detected in sample ||| BRCA1 status is positive,accept,,医学术语
+<TABLE_START>,840,830,6,4200.0000,<TABLE_START> row begins here,special,,结构标记
+nullpointerexception,390,221,5,1560.0000,java.lang.nullpointerexception happened,normalize,NullPointerException,统一大小写
+a8f91c2e,300,12,8,2100.0000,session a8f91c2e started,reject,,随机串
