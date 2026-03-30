@@ -25,6 +25,23 @@ bash run_step1.sh
 # edit candidate_tokens.csv manually
 
 bash run_step3.sh
+
+# or
+python step1_mine_candidates.py \
+  --base_model Qwen/Qwen3-4B-Instruct \
+  --input_path files/knowledge.jsonl \
+  --output_dir ./tokenizer_workdir \
+  --sp_vocab_size 16000 \
+  --max_candidates 200 \
+  --min_freq 20
+
+python step3_expand_tokenizer.py \
+--base_model Qwen/Qwen3-4B-Instruct \
+--reviewed_csv ./tokenizer_workdir/candidate_tokens.csv \
+--output_dir ./qwen3_extended1 \
+--validation_text_file ./tokenizer_workdir/merged_clean_corpus.txt \
+--validation_samples 5000 \
+--keep_embed_dim
 ```
 
 ## Notes
