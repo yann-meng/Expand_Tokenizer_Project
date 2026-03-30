@@ -13,6 +13,18 @@
 - `reject`: 不加入
 - `normalize`: 规范到 `normalized_to` 指定形式后，作为普通 token 加入
 
+## 2. comment 写什么
+
+写拒绝原因或规范原因，方便后续追踪。
+
+例如：
+- 随机 ID
+- 只在单个文件重复
+- 与已有 token 重复
+- 规范到大写形式
+- 应改为 special token
+
+
 ## 推荐保留
 
 - 高频领域术语
