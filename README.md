@@ -1,4 +1,4 @@
-# Qwen3 Tokenizer Expansion Workflow
+# Tokenizer Expansion Workflow
 
 A 3-step workflow for extending a Qwen3 tokenizer with domain-specific tokens:
 
